@@ -6,6 +6,7 @@ import shopify from '../assets/img/eCommerce.png'
 import twitter from '../assets/img/twitter.png'
 import reddit from '../assets/img/reddit-2.png'
 import aire  from '../assets/img/airbnb.png'
+import disney from '../assets/img/disney.png'
 import html from '../assets/img/Html_Converter.png'
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -22,6 +23,14 @@ export const Projects = () => {
       Github:"https://github.com/nejc000l/Waves-Player_final/tree/master",
 
     },
+    {
+      title: "Disney TV app",
+      description: "A TV app for Disney shows created with GraphQL, React, and Tailwind",
+      imgUrl: disney,
+      Link: "https://example.com/disney-tv-app",
+      Github: "https://github.com/example/disney-tv-app",
+      },
+
     {
       title: "Amazon 2.0 ",
       description: "A recreation of amazon webpage in React and Next Js",
@@ -66,7 +75,9 @@ export const Projects = () => {
       description: "A html converter that converts text into Html build in React",
       imgUrl:html,
       Link:'https://text-to-html-converter.vercel.app/',
-      Github:"https://github.com/nejc000l/Text-to-Html-Converter",    }
+      Github:"https://github.com/nejc000l/Text-to-Html-Converter",
+
+    }
   ];
 
   return (

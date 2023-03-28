@@ -116,9 +116,10 @@ span.navbar-text {
 .social-icon {
     display: inline-block;
     margin-left: 14px;
+    margin-top:14px;
 }
 .social-icon a {
-    width: 42px;
+    width: 60px;
     height: 42px;
     color: rgba(217, 217, 217, 0.1);
     display: inline-flex;
@@ -461,7 +462,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
  a {
   text-decoration: none !important;
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
 }
 .GithubTag{
 padding: 10px;
