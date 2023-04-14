@@ -7,6 +7,7 @@ import twitter from '../assets/img/twitter.png'
 import reddit from '../assets/img/reddit-2.png'
 import aire  from '../assets/img/airbnb.png'
 import disney from '../assets/img/disney.png'
+import UnstableDeffsuion from '../assets/img/UnstableDeffsuion.png'
 import html from '../assets/img/Html_Converter.png'
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -24,12 +25,21 @@ export const Projects = () => {
 
     },
     {
+      title: "Unstable Diffusion",
+      description: "An open-source machine learning model that can generate images from text, build in CSS React",
+      imgUrl: UnstableDeffsuion,
+      Link: "https://stable-deffusion-generator.vercel.app/",
+      Github: "https://github.com/nejc000l/stableDeffusionGenerator",
+      },
+    {
       title: "Disney TV app",
       description: "A TV app for Disney shows created with GraphQL, React, and Tailwind",
       imgUrl: disney,
-      Link: "https://example.com/disney-tv-app",
+      Link: "https://disney-graphql.vercel.app/",
       Github: "https://github.com/example/disney-tv-app",
       },
+
+  
 
     {
       title: "Amazon 2.0 ",
